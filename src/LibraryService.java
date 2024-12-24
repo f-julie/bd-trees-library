@@ -34,7 +34,7 @@ public class LibraryService {
      *         false otherwise
      */
     public boolean isBookInLibraryByIsbn(String isbn) {
-        // PARTICIPANTS: IMPLEMENT YOUR BINARY SEARCH HERE
+        // TODO: PARTICIPANTS: IMPLEMENT YOUR BINARY SEARCH HERE
 
         throw new NotImplementedException("isBookInLibraryByIsbn is not yet implemented!");
     }
