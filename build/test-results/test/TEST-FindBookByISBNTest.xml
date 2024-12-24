@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FindBookByISBNTest" tests="4" skipped="0" failures="4" errors="0" timestamp="2024-09-15T19:59:54" hostname="DESKTOP-URGQT26" time="0.065">
+<testsuite name="FindBookByISBNTest" tests="4" skipped="0" failures="4" errors="0" timestamp="2024-12-24T18:56:10" hostname="DESKTOP-URGQT26" time="0.073">
   <properties/>
-  <testcase name="testIsBookInLibraryByIsbn_nonExistentIsbn_returnsTrue()" classname="FindBookByISBNTest" time="0.039">
+  <testcase name="testIsBookInLibraryByIsbn_nonExistentIsbn_returnsTrue()" classname="FindBookByISBNTest" time="0.049">
     <failure message="org.apache.commons.lang3.NotImplementedException: isBookInLibraryByIsbn is not yet implemented!" type="org.apache.commons.lang3.NotImplementedException">org.apache.commons.lang3.NotImplementedException: isBookInLibraryByIsbn is not yet implemented!
 	at LibraryService.isBookInLibraryByIsbn(LibraryService.java:39)
 	at FindBookByISBNTest.testIsBookInLibraryByIsbn_nonExistentIsbn_returnsTrue(FindBookByISBNTest.java:69)
@@ -97,7 +97,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:831)
 </failure>
   </testcase>
-  <testcase name="testIsBookInLibraryByIsbn_emptyIsbn_returnsFalse()" classname="FindBookByISBNTest" time="0.006">
+  <testcase name="testIsBookInLibraryByIsbn_emptyIsbn_returnsFalse()" classname="FindBookByISBNTest" time="0.005">
     <failure message="org.apache.commons.lang3.NotImplementedException: isBookInLibraryByIsbn is not yet implemented!" type="org.apache.commons.lang3.NotImplementedException">org.apache.commons.lang3.NotImplementedException: isBookInLibraryByIsbn is not yet implemented!
 	at LibraryService.isBookInLibraryByIsbn(LibraryService.java:39)
 	at FindBookByISBNTest.testIsBookInLibraryByIsbn_emptyIsbn_returnsFalse(FindBookByISBNTest.java:47)
@@ -193,7 +193,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:831)
 </failure>
   </testcase>
-  <testcase name="testIsBookInLibraryByIsbn_allExistingBooks_returnsTrue()" classname="FindBookByISBNTest" time="0.011">
+  <testcase name="testIsBookInLibraryByIsbn_allExistingBooks_returnsTrue()" classname="FindBookByISBNTest" time="0.009">
     <failure message="org.apache.commons.lang3.NotImplementedException: isBookInLibraryByIsbn is not yet implemented!" type="org.apache.commons.lang3.NotImplementedException">org.apache.commons.lang3.NotImplementedException: isBookInLibraryByIsbn is not yet implemented!
 	at LibraryService.isBookInLibraryByIsbn(LibraryService.java:39)
 	at FindBookByISBNTest.lambda$testIsBookInLibraryByIsbn_allExistingBooks_returnsTrue$0(FindBookByISBNTest.java:56)
@@ -298,7 +298,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:831)
 </failure>
   </testcase>
-  <testcase name="testIsBookInLibraryByIsbn_nullIsbn_returnsFalse()" classname="FindBookByISBNTest" time="0.005">
+  <testcase name="testIsBookInLibraryByIsbn_nullIsbn_returnsFalse()" classname="FindBookByISBNTest" time="0.006">
     <failure message="org.apache.commons.lang3.NotImplementedException: isBookInLibraryByIsbn is not yet implemented!" type="org.apache.commons.lang3.NotImplementedException">org.apache.commons.lang3.NotImplementedException: isBookInLibraryByIsbn is not yet implemented!
 	at LibraryService.isBookInLibraryByIsbn(LibraryService.java:39)
 	at FindBookByISBNTest.testIsBookInLibraryByIsbn_nullIsbn_returnsFalse(FindBookByISBNTest.java:37)
